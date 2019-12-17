@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: python-web
-        image: 945568844480.dkr.ecr.us-west-2.amazonaws.com/python-web-app:2
+        image: 945568844480.dkr.ecr.us-east-2.amazonaws.com/fargate-tutorial:1
         ports:
           - containerPort: 8080
         resources: {}
